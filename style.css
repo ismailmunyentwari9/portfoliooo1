@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.intr0-section{
+    padding-left: 10rem;
+    height: 150vh;
+    background-image: url("./assets/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+  
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+ul{
+display: flex;
+gap: 20px;
+}
+li:nth-child(1){
+    color: #E9BD8C;
+}
+li{
+    color: white;
+    font-size: 27px;
+    list-style: none;
+}
+
+
+/* ........................................lower-intro part styles...... */
+.intr0-section div h4{
+    color: #E9BD8C;
+
+}
+.intr0-section div{
+    margin-top: 10%;
+  
+   width: 35%;
+}
+.intr0-section div h1{
+    color: #F5F5F5;
+    width: 60%;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+
+.intr0-section .intro-buttons button{
+    padding: 12px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+    color: #E9BD8C;
+    
+
+}
+
+.intr0-section .intro-buttons button:hover{
+    background-color: #933C24;
+    color: #F5F5F5;
+    cursor:pointer
+
+}
