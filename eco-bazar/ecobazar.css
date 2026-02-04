@@ -1,0 +1,32 @@
+.upper-card-section{
+
+    width:85%;
+    margin: auto;
+}
+
+.upper-card-section h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upper-card-section h2 span{
+    color: #00B207;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.upper-cards,.lower-cards{
+    display: flex;
+    gap: 1rem;
+}
+.upper-cards div,.lower-cards div{
+border: 1px solid silver;
+width: 16%;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
