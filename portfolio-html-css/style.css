@@ -1,0 +1,62 @@
+
+
+.second-section{
+background-color:#EDF7FA;
+  padding: 2rem;
+  height:60vh;
+
+} 
+.card-container{
+    
+  width: 85%;
+  margin:auto;
+  margin-top: 3rem;
+display:grid;
+ grid-template-columns:auto auto auto auto;
+gap:2rem;
+}
+
+.card{
+  background-color:#FFFFFF;
+  padding:1rem 2rem;
+
+}
+
+.second-section h3{
+  margin: auto;
+  width: 85%;
+  
+  display: flex;
+  font-weight: lighter;
+  justify-content: space-between;
+}
+.second-section h3 span:nth-child(2){
+  color:#00A8CC;
+  
+}
+
+.third-section{
+
+  width: 82%;
+  margin: auto;
+}
+
+.project-card{
+  display: flex;
+  gap:2rem;
+  border-bottom: 1px solid silver;
+  margin-bottom: 2rem;
+
+
+}
+.project-card p:nth-child(3){
+ width:70%;
+ font-size: 20px;
+}
+.project-card p:nth-child(2) span:nth-child(1){
+  background-color: #142850;
+  padding:7px 15px ;
+  color: #FFFFFF;
+  border-radius: 32%;
+}
+
