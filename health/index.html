@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="upper-header bg-white h-[auto] flex lg:justify-between md:justify-center py-3 px-10 flex-wrap">
+            <span ><img src="./assets/Healthrouts.png" alt="Logo Icon"></span>
+            <div class=" flex gap-10">
+                <span class="contact-span flex items-center gap-2">
+                    <i class="fa fa-phone text-[#FE7F5C]"></i>
+                    <p class="text-[#126086] text-xl">+91-9876543210</p>
+                </span>
+                <span class="booking-span flex items-center gap-2 border-3 border-[#126086] rounded-2xl p-1">
+                    <i class="fa fa-calendar text-[#FE7F5C]"></i>
+                    <p class="text-[#126086] lg:text-xl md:text-lg text-sm ">Book an Appointment</p>
+                </span>
+            </div>
+
+        </div>
+        <nav class="bg-[#126086] h-[30vh] flex pt-5 justify-center gap-10 items-center flex-wrap">
+
+            <span class="lg:hidden md:hidden flex"><i class="fa fa fa-bars text-white"></i></span>
+
+            <ul class="lg:flex md:flex hidden lg:gap-5 md:gap-3 gap-2">
+                <li class="text-white">Home</li>
+                <li class="text-white">How it Works</li>
+                <li class="text-white">Packages</li>
+                <li class="text-white">Explore</li>
+                <li class="text-white">Our  Team</li>
+                <li class="text-white">About us</li>
+                <li class="text-white">Contact</li>
+               
+            </ul>
+             <div class="lg:w-[40%] md:w-[60%] w-[80%] ">
+                    <input class="bg-white p-2 rounded-l-full w-[80%]" type="text" placeholder="Search Treatment, Doctor, Disease, Packages" id="">
+                    <button class="bg-[#FE7F5C] text-white px-4 py-2 rounded-r-2xl" >Search</button>
+                </div>
+        </nav>
+    </header>
+</body>
+
+</html>
